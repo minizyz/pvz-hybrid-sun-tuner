@@ -6,12 +6,14 @@
     <LangVersion>latest</LangVersion>
     <AssemblyName>SunTuner</AssemblyName>
     <RootNamespace>SunTuner</RootNamespace>
-    <Version>0.1.0</Version>
-    <Description>PvZ Hybrid Remake sun production frequency tuner mod</Description>
+    <Version>0.2.0</Version>
+    <Description>PvZ Hybrid Remake sun production frequency tuner mod - Windows + Android</Description>
     <Authors>minizyz</Authors>
     <Company>minizyz</Company>
     <Product>SunTuner</Product>
-    <Copyright>Copyright © 2026</Copyright>
+    <Copyright>Copyright (c) 2026</Copyright>
+    <!-- DLL 同时兼容 Windows (x64) 和 Android (arm64) BepInEx 6 -->
+    <AssemblyTargetPlatform>AnyCPU</AssemblyTargetPlatform>
   </PropertyGroup>
 
   <ItemGroup>
