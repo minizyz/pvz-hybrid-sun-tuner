@@ -1,0 +1,32 @@
+# Build results
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.pidb
+*.svcinfo
+*.psess
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Unity / BepInEx
+Library/
+Temp/
+Logs/
+UserSettings/
+BepInEx/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>SunTuner</AssemblyName>
+    <RootNamespace>SunTuner</RootNamespace>
+    <Version>0.1.0</Version>
+    <Description>PvZ Hybrid Remake sun production frequency tuner mod</Description>
+    <Authors>minizyz</Authors>
+    <Company>minizyz</Company>
+    <Product>SunTuner</Product>
+    <Copyright>Copyright © 2026</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Core" Version="6.0.0-pre.2" />
+    <PackageReference Include="HarmonyX" Version="2.16.0" />
+  </ItemGroup>
+
+</Project>
